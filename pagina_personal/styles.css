@@ -1,0 +1,44 @@
+/* Estilos para todos los dispositivos */
+body {
+ font-family: Arial, sans-serif;
+ line-height:1,6;
+ margin:0;
+ padding: 0px;
+ font-size: 12px; ;
+ background-color: #ca83c4; 
+}
+header {
+ background-color: #8b4e86;
+ padding: 30px;
+}
+h1 {
+color:rgb(10, 2, 17);
+border-bottom: 2px solid #200505;
+margin:25px ;
+}
+#acerca-de-mi{color:#202020
+}
+#educacion{color: #202020;
+}
+h2{
+  color:#000000;
+  margin: 10px;
+}
+section {
+ margin: 20px;
+}
+footer {
+ background-color: #f2f2f2;
+ padding: 10px;
+}
+/* Estilos responsivos */
+@media (max-width: 600px) {
+ body {
+ font-size: 16px;
+}
+ header,
+ section,
+ footer {
+  padding: 10px;
+ }
+}
